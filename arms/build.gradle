@@ -101,8 +101,8 @@ dependencies {
 
     //tools
     compileOnly rootProject.ext.dependencies["javax.annotation"]
-//    api rootProject.ext.dependencies["dagger2"]
-//    annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
+    api rootProject.ext.dependencies["dagger2"]
+    annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
     compileOnly rootProject.ext.dependencies["androideventbus"]
     compileOnly rootProject.ext.dependencies["eventbus"]
     api rootProject.ext.dependencies["gson"]
